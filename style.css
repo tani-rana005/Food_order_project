@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: white;
+    width: 100%;
+    height:100vh;
+}
+/* h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Oswald',sans-serif;
+    margin: 50px;
+} */
+#row1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#row2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#row3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img{
+    width: 300px;
+    height: 200px;
+    object-fit:cover;
+    display: block;
+    margin: 5% 5% 5% 5% 5%;
+        border: 2px solid black;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 4px 7px 7px 0px black;
+    cursor:pointer;
+    margin: 10px;
+    transition: 400ms;
+
+}
+.Img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    filter: blur(0px);
+    border: 3px solid rgba(255, 245, 245, 0.4);
+    filter: brightness(1); 
+    transform: scale(1.03);
+    background-color:rgb(211, 236, 160);
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.ing:focus{
+    color: rgb(100, 100, 159);
+    transition:2s;
+
+}
+/* #heading{
+    background-image: none;
+} */
+.Img{
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+    margin-top: 10px;
+    background-color:#F5F5DC ;
+     color: #1A1A1A;
+    a{
+        color:#1A1A1A;
+    } 
+}
+.Img:hover{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* box-shadow: 0 0 0 10px gray; */
+}
+.btn{
+    display: inline;
+    background-color: olivedrab;
+    color: #4e342e;
+    padding: 9px 140px;
+    align-items: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    font-family:'poppins',sans-serif ;
+    
+}
+.btn:hover{
+    background-color: olivedrab;
+}
+#rs{
+    margin-bottom: 20px;
+}
+header{
+    height: 90px;
+    width: 100%;
+    background-color: #1A1A1A;
+    color: olivedrab;
+    display: flex;
+    align-items: center;
+}
+#container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul li{
+    list-style: none;
+   display: inline;
+   margin-right: 20px; 
+}
+.logo{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.video{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+
+}
+.myvideo{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
