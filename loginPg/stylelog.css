@@ -1,33 +1,19 @@
-body{
-    margin: 0%;
+html,body{
+    background-color: aqua;
     height: 100%;
     width: 100%;
-    display: flex;
-   justify-content: center;
-   align-items: center;
-
-}
-.back{
     margin: 0%;
-    background-color: green;
-   height: 30%;
-   width: 40%;
-}
-/* #intext{
-    display: flex;
+    padding: 0%;
+    
     justify-content: center;
     align-items: center;
-    <h2>Login</h2>
-     <div id="intext">
-           <div id="dive">
-            <h4>Email: </h4> <input type="text" name="gmail" id="email">
-           </div>
-        <div id="divpass">
-            <h4>Password</h4> <input type="password" id="password">
-        </div>
+    display: flex;
 
-        <div id="divlink">
-            <a href="">Already have account?</a>
-        </div>
+    
+}
+#box{
+    height: 50%;
+    width: 50%;
+    background-color: antiquewhite;   
 
-} */
+}
