@@ -1,19 +1,114 @@
 html,body{
-    background-color: aqua;
-    height: 100%;
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-    
+   min-height: 100vh;
+    margin: 0%;    
     justify-content: center;
     align-items: center;
     display: flex;
+    
+    /* background-color:  rgb(181, 210, 121); */
+   
+}
+.imgpart{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-image: url("image.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
 
     
-}
-#box{
-    height: 50%;
-    width: 50%;
-    background-color: antiquewhite;   
 
+}
+.loginpart{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+#box{
+    
+    flex-wrap: wrap;
+    background-color: white;  
+    position: absolute;
+    top:0%;
+    width: 400px;
+    max-width: 450px;
+    height: 500px;
+    /* padding: 40px; */
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 40px rgb(181, 210, 121);
+    /* outline: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+            h2{
+            font-size:50px;
+             margin-bottom: 30px;
+            align-items: center;
+            justify-content:center ;
+            display: flex; 
+                
+        }
+
+        label{
+            font-size: large;
+            font-family:Montserrat;
+            
+        }
+        input{
+            margin: 15px 0;
+            height: 35px;
+            width: 100%;
+            border-radius: 10px;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            
+        }  }     
+}
+
+.sub p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+    .register-link{
+
+            color:blue;
+            text-decoration: none;
+             font-size: 16px;
+             margin-left: 5px;
+    }
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:  rgb(181, 210, 121);
+    font-family: Montserrat;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    
+}
+button{
+    display: block;
+    margin:auto;
+}
+.sub hr{
+    width: 80%;
+    background-color: blue;
+    height: 1px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20% auto;
+}
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgb(190, 310, 121); }
+@media (max-width: 768px) {
+    #box {
+        width: 90%;
+    }
 }
